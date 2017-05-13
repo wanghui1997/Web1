@@ -1,0 +1,36 @@
+.menu{
+background-image: url(../image/bj.png);	
+background-repeat: no-repeat;
+width:300px;
+height:500px;
+margin:20px;
+}
+#titlediv{
+	background-image: url(../image/header.png);	
+	background-repeat: no-repeat;
+	width:400px;
+	height:60px;
+	margin:10px;
+}
+a{
+	text-decoration:none;
+	color:gray;
+}
+ul{
+	list-style-type:none; 
+}
+.checked{
+	background-image: url(../image/lvbiaoti.png);
+	background-repeat: no-repeat;
+	background-position: left;
+    padding:10px 50px;
+	height:30px;
+	txet-align:center;
+}
+.baibiaoti{
+	background-image: url(../image/baibiaoti.png);
+	background-repeat: no-repeat;
+	height:30px;
+ 	padding:10px 50px;
+ 	txet-align:center;
+}

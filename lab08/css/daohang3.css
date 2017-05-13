@@ -1,0 +1,30 @@
+.menu{
+	background-image: url(../image/bg.gif);
+	height:60px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding:15px 250px;
+}
+ul{
+	list-style-type:none;
+}
+li{
+	display:inline;
+}
+a{  
+	font-family:'Arial';
+	font-size:14px;
+	font-weight: bold;
+	color:white;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:#b9f605;
+	}
+#green{
+	color:green;
+	font-weight: bold;
+}
+.special{
+color:orange;	
+}
