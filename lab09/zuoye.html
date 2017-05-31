@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>网页布局</title>
+<meta charset="utf-8"/>
+<style>
+	#body{
+		width:1000px;
+		height:1000px;
+		background-image: url(images/bodybg.gif);
+		margin:0px auto;
+	}
+	#header{
+	height:205px;
+	width:1000px;
+	background-image:url(images/bg.gif);
+	background-position: center top;
+	}
+	#banner{
+	width:1000px;
+	height:164px;
+	text-align: center;
+}
+#logo{
+	position:absolute;
+	left:350px;
+	top:38px;
+}
+#nav{
+	width:1000px;
+	height:40px;
+	background-image:url(images/nav.jpg);
+}
+#body,#header,#banner,#nav,#content_top{
+	border:1px red solid;
+}
+#content{
+width:1000px;
+height:800px;
+clear: both;
+}
+#content_top{
+/*overflow:hidden;*/
+width:1000px;
+height:243px;
+}
+.news_pic{
+width:324px;
+height:243px;
+/*background-image: url(images/news_bg.png);*/
+/*float: left;*/
+}
+.news_list{
+	width:330px;
+	height:243px;
+	/*float: left;*/
+}
+.news_announce{
+	width:277px;
+	height:243px;
+	float:right;
+}
+.news_pic,.news_list,.news_announce{
+	border:1px blue solid;
+}
+</style>
+</head>
+<body>
+<div id="body">
+<!--页头部分-->
+<div id="header">
+	<!--logo图片-->
+	<div id="banner"></div>
+	<div id="nav">
+	   <div class="nav_body">
+		<!--导航栏-->
+		<div class="nav_content">
+		
+		</div>	
+		<!--搜索框-->
+		<div class="nav_search">
+		
+		</div>
+	</div>
+  </div>
+</div>
+<!--页面主体部分-->
+<div id="content">
+<div id="content_top">
+	<!--热点图片-->
+	<div class="news_pic">
+	<div id="tupian"><div>
+	<div id="wenzi"></div>
+	</div>
+	<!--培训动态-->
+	<div class="news_list">
+	<div></div>
+	<span class="gengduo"></span>
+	<div>
+	
+	</div>	
+	</div>
+	<!--站内公告-->
+	<div class="news_announce">
+	<div id="zhanneigonggao"></div>
+	<div id="gonggao">
+	
+	</div>	
+    </div>
+  </div>
+<div id="content_bottom_left">
+	<!--学术争鸣-->
+	<div class="academic">
+	<div></div>
+	<span class="gengduo"></span>
+	<div>
+		
+	</div>	
+	</div>
+	<!--书坛新闻-->
+	<div class="book_news">
+	<div></div>
+	<span class="gengduo"></span>
+	<div>
+		
+	</div>	
+	</div>
+	<!--燕赵风采-->
+	<div class="fengcai">
+	<div></div>
+	<span class="gengduo"></span>
+	<div id="fengcaitu">	
+		
+	</div>	
+	</div>
+</div>
+<div id="content_bottom_right">
+<!--名家展厅-->
+<div id="zhanshi"></div>
+<div id="mingjia">
+<div></div>
+</div>	
+</div>	
+</div>
+<!--页脚部分-->
+	<div id="footer">
+	<div>
+	
+	</div>
+		<div></div>
+		<div></div>
+		<div></div>
+  	</div>
+</div>
+</body>
+</html>

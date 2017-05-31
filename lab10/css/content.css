@@ -1,0 +1,143 @@
+*{
+	font-size:12px;
+	font-color:#522a06;
+	font-family: '宋体';
+    margin:0px auto;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color:#522a06;
+}
+a:hover{
+	text-decoration: underline;
+}
+#body{
+	width:1000px;
+	height:1000px;
+	background-image:url(../images/bodybg.gif);
+	margin:0px auto;
+}
+#header{
+	height:205px;
+	width:1000px;
+	background-image:url(../images/bg.gif);
+	background-position: center top;
+	}
+#banner{
+	width:1000px;
+	height:164px;
+}
+#logo{
+	position:absolute;
+	left:350px;
+	top:38px;
+}
+#nav{
+	height:40px;
+	background-image:url(../images/nav.jpg);
+}
+.nav_body{
+	width:1000px;
+	text-align: center;	
+}
+.nav_content{
+width:800px;
+font-weight: bold;
+color:#fff;	
+float:left;
+padding：auto;
+}
+.nav_content li{
+display:inline;
+text-align:center;
+}
+.nav_content a{
+line-height: 40px;
+list-style-type: none;
+color:white;
+}
+.nav_content a:hover{
+	color:#f9f603;
+	text-decoration: none;
+}
+#shouye:active{
+color:#f9f603;
+}
+.nav_search{
+	background-color:#f8f5ee;
+	float:left;
+	margin:7px auto; 
+}
+#sousuokuang{
+	background-color:#f8f5ee;
+	width:140px; 
+	height:19px; 
+}
+#sousuo{
+	width:44px; 
+	height:21px; 
+	background-color:#000;
+	color:#fff;
+	border:1px  solid  #f8f5ee;
+}
+#neirong{
+	width:1000px;
+	height:650px;
+	overflow: hidden;
+}
+.left{
+	width:700px;
+	float:left;
+}
+.one{
+	text-align: center;
+}
+#tupian{
+	text-align: center;
+}
+.two{
+	text-indent: 2em;
+	line-height: 2em;
+	font-size: 16px;
+}
+.three{
+	line-height: 2em;
+}
+.right{
+	width:280px;
+	float:left;
+	margin-left: 16px;
+}
+.gengxin{
+	background-image: url(../images/bg.png);
+	border:1px solid #c9baa5;
+	margin-bottom:20px;
+}
+.zhanting{
+	background-image: url(../images/show_bg.png);
+}
+#mingjia{
+	text-align: center;
+	background-image: url(../images/show_bg.png);
+	height:362px;
+	margin-left:25px;
+	margin-top: 25px;
+	padding:20px;
+}
+#footer{
+	height:105px;
+	width:1000px;
+	font-size:20px;
+	font-weight: bold;
+    margin:0px auto;
+	background-image:url(../images/foot.gif);
+	float:left;
+	text-align:center;
+}
+#footerlist li{
+display:inline;
+line-height: 2em;
+}
