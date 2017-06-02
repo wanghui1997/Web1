@@ -14,6 +14,7 @@ a:hover{
 }
 #body{
 	width:1000px;
+	height:1000px;
 	background-image:url(../images/bodybg.gif);
 }
 #header{
@@ -36,6 +37,7 @@ a:hover{
 	top:38px;*/
 }
 #nav{
+	width:1000px;
 	height:40px;
 	background-image:url(../images/nav.jpg);
 }
@@ -111,6 +113,7 @@ float: left;
 }
 .news_list{
 	width:330px;
+	height:243px;
 	margin-left: 38px;
 	float: left;
 }
@@ -122,6 +125,7 @@ span{
 }
 .news_announce{
 	width:277px;
+	height:243px;
 	margin-top: 20px;
 	float:right;
 }
@@ -138,11 +142,13 @@ height:210px;
 }
 #content_bottom_left{
 	width:715px;
+	height:447px;
 	float:left;
 	clear:both;
 }
 .academic{
 	width：340px;
+	height:112px;
 	float:left;	
 }
 .academic ul li{
@@ -150,6 +156,7 @@ height:210px;
 }
 .book_news{
 	width：340px;
+	height:112px;
 	margin-left:25px;
 	float:left;
 }
@@ -157,6 +164,7 @@ height:210px;
 	line-height:30px;	
 }
 .fengcai{
+	height:112px;
 	width:700px;
 	clear:both;
 }
@@ -167,6 +175,7 @@ height:210px;
 }
 #content_bottom_right{
 	width:280px;
+	height:447px;
 	margin-top: 20px;
 	float:right;
 }
@@ -175,7 +184,7 @@ text-align: center;
 height:23px;
 }
 .mingjia{
-	width:"224px";
+	width:224px;
 	text-align: center;
 }
 #mingjia{
@@ -193,7 +202,7 @@ height:23px;
 	font-weight: bold;
     margin:0px auto;
 	background-image:url(../images/foot.gif);
-	/*clear:both;*/
+	clear:both;
 	text-align:center;
 }
 #footerlist li{
