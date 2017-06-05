@@ -1,0 +1,18 @@
+div.image img{
+	display:inline;
+	width:200px;
+	height:160px;
+	opacity:0.5;
+}
+div.image a:hover img{
+	border:1px solid #333333;
+	opacity:1;
+}
+.image{
+float:left;
+border:1px solid #bebebe;
+margin:3px;
+}
+.desc{
+	text-align: center;
+}
