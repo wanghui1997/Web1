@@ -1,0 +1,116 @@
+*{
+	font-size:12px;
+	font-color:#522a06;
+    font-family: '宋体';
+	padding:0px;
+	 margin:0px auto;
+}
+a{
+	font-size:16px;
+	font-family: '宋体';
+    text-decoration: none;
+    color:#522a06;
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+#body{
+width:1000px;
+height:735px;
+border:1px solid black;
+background-image:url(../images/bodybg.gif);
+}
+#header{
+width:1000px;
+height:245px;
+border:1px solid black;
+}
+#banner
+{
+background-image:url(../images/banner.jpg);
+background-position: center top;
+width:1000px;
+height:195px;
+}
+#nav
+   {
+    width:1000px;
+    height:50px;
+    background-image:url(../images/daohang.png);
+   }
+.nav_content{
+width:700px;
+font-weight: bold;
+float:left;
+}
+.nav_content li{
+display:inline;
+text-align:center;
+margin:10px;
+}
+.nav_content a{
+color:#fff; 
+line-height: 50px;
+list-style-type: none;
+}
+.nav_content a:hover{
+    color:#f9f603;
+    text-decoration: none;
+}
+.nav_search{
+    background-color:#f8f5ee;
+    float:left;
+    margin:10px auto; 
+}
+#sousuokuang{
+    background-color:#f8f5ee;
+    width:140px; 
+    height:19px; 
+    margin-right: 0px;
+}
+#sousuo{
+    width:44px; 
+    height:21px; 
+    background-color:#000;
+    color:#fff;
+    border:1px  solid  #f8f5ee;
+    margin-left:0px;
+} 
+#content{
+width:1000px;
+height:400px;	
+}
+#left{
+    width:500px;
+    height:300px;
+    float: left;
+     border:1px  solid  #f8f5ee;
+     margin:30px;
+}
+#right{
+    font-size: 16px;
+    margin:30px;
+    padding:50px;
+    background-color: white;
+    width:250px;
+    height:200px;
+    float: left;
+    border:1px  solid  #f8f5ee;
+    line-height: 1.5em
+}
+#zhuce{
+    
+}
+   #footer{
+    width:1000px;
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    margin:0px auto;
+    padding:50px 0px;
+    background-image:url(../images/foot_bg.gif);
+    clear:both;
+    text-align:center;	
+    border:1px solid black;
+    }
