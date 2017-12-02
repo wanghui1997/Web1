@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>师大官网</title>
+    <meta charset="utf-8" />
+    <style>
+    *{
+      padding: 0;
+      margin:0;
+    }
+    .wrap{
+    	width:1200px;
+    	height:397px;
+      border:1px solid black;
+      margin:0 auto;
+    	overflow:hidden;
+    	position:relative;
+    }
+    .wrap a{
+    	display:none;
+    }
+    .bottom{
+      width:1002px;
+      height:73px;
+      margin: 0 auto;
+      background: url()
+      left:99px;
+      bottom:0;
+    	position:absolute;
+    }
+    .bottom span{
+      width:50px;
+      height:73px;
+    	line-height:73px;
+      text-align:center;
+    	color:#fff;
+      font-size: 25px;
+      font-weight: bold;
+    	float:left;
+    	cursor:pointer;/* 变手型*/
+
+    }
+    #next{
+    	float:right;
+    }
+    </style>
+  </head>
+    <body>
+    	<div class="wrap">
+    		<a href="#" style="display:block;"><img src="00.gif" alt="pic0"/></a>
+        <a href="#"><img src="01.jpg" alt="pic1"/></a>
+        <a href="#"><img src="02.jpg" alt="pic2"/></a>
+        <a href="#"><img src="03.jpg" alt="pic3"/></a>
+        <a href="#"><img src="04.jpg" alt="pic4"/></a>
+        <a href="#"><img src="05.jpg" alt="pic5"/></a>
+        <a href="#"><img src="06.jpg" alt="pic6"/></a>
+        <a href="#"><img src="07.jpg" alt="pic7"/></a>
+    		<div class="bottom">
+    		  <span id="pre"><</span>
+    		  <span id="next">></span>
+    		</div>
+    	</div>
+    </body>
+    <script>
+      var wrap=document.getElementsByClassName('wrap')[0];
+      console.log(wrap[0]);
+      var imgs=wrap.getElementsByTagName('a');
+      var pre=bottom.getElementById('pre');
+      var next=bottom.getElementById('next');
+      var i=0;
+      var id=setInterval(function(){
+      	imgs[i%8].style.display="none";
+        i++;
+      	imgs[i%8].style.display="block";
+      },3000);
+      wrap.onmouseover=function(){
+      	clearInterval(id);
+      }
+      wrap.onmouseout=function(){
+        id=setInterval(function(){
+        	imgs[i%8].style.display="none";
+          i++;
+        	imgs[i%8].style.display="block";
+        },3000);
+      }
+      pre.onclick=function(){
+      	imgs[i%8].style.display="none";
+      	i--;
+      	if(i<0)
+      		i=7;
+      	imgs[i%8].style.display="block";
+      }
+      next.onclick=function(){
+      	imgs[i%8].style.display="none";
+        i++;
+      	imgs[i%8].style.display="block";
+      }
+    </script>
+    </html>

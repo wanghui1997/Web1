@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>师大官网实现</title>
+		<meta charset="utf-8"/>
+		<style>
+		*{
+			margin:0;
+			padding: 0;
+		}
+		.first{
+			width:1002px;
+			height:104px;
+			border-top:4px solid #284c7e;
+			border-bottom:1px solid #d6d6d6;
+			margin:0 auto;
+		}
+		.left{
+			width:309px;
+			height:69px;
+			float:left;
+			
+			margin:15px;
+		}
+		.right{
+			float:right;
+			
+			margin:21px;
+		}
+		a{
+			text-decoration: none;
+		}
+		span>a{
+			color:#fc822f;
+			font:12px bold;
+		}
+		
+		input{
+			
+			margin:4px;
+			width:215px;
+			height:30px;
+		}
+		.second{
+			width:1002px;
+			height:65px;
+			/*border:1px solid black;*/
+			margin:0 auto;
+		}
+		ul{
+			list-style: none;
+
+		}
+		
+		.second>ul>li{
+			display:block;
+			float:left;
+			width:110px;
+			height:50px;
+			margin:20px 0;	
+		}
+		.second>li>ul{
+			display: none;
+		}
+		#nav{
+		list-style:none;
+		line-height:27px;
+		}
+		#nav a:link,#nav a:visited{
+		display:block;
+		width:103px;
+		height:50px;
+		text-align:center;
+		text-decoration:none;
+		
+		}
+		#nav a:hover{
+		color: #FFF;
+		
+		font-weight: bold;
+		background:#0e6eb8;
+		}
+		#nav ul{list-style: none;}
+		#nav li{
+		float:left;
+		width: 80px;
+		margin-right: 30px;
+		}
+		#nav li a{
+	    font-size:16px;
+		font-weight: bold;	
+		color:black;
+		}
+		#nav li ul li a{
+	    font-size:13px;
+		background:#0e6eb8;	
+		color:white;
+		}
+		#nav li ul li a:hover{
+		background:#64b6f4;
+		}
+
+		#nav li ul{
+		display:none;
+		}
+		#nav li.subMenuShow ul{
+		display:block;
+		}
+		.wrap{
+    	width:1200px;
+    	height:397px;
+	    margin:0 auto;
+    	overflow:hidden;
+    	position:relative;
+    	z-index: -15;
+    }
+    .wrap a{
+    	display:none;
+    }
+    .bottom{
+      width:1002px;
+      height:73px;
+      bottom:0;
+      left:99px;
+      position:absolute;
+      background: url();
+    }
+    .bottom span{
+      width:50px;
+      height:73px;
+      line-height:73px;
+      text-align:center;
+      color:#fff;
+      font-size: 25px;
+      font-weight: bold;
+      float:left;
+      cursor:pointer;/* 变手型*/
+
+    }
+    #next{
+    	float:right;
+    }
+		</style>
+	</head>
+	<body>
+		<div >
+			<div class="first">
+				<div class="left"><img src="logo.png" alt="logo"/></div>
+				<div class="right">
+				  
+					<span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;旧版网页   </a></span>
+					<span>&nbsp;</span>
+					<span><a href="#">English Version</a></span>
+					</br>
+
+					<input name="text" value="搜索" />
+					
+				</div>
+			</div>
+			<div class="second">
+				<ul id="nav">
+				<li class="list"><a href="#">&nbsp;首页&nbsp;</a>
+				
+				</li>
+				<li class="list"><a href="#">&nbsp;学校概况&nbsp;</a>
+					<ul>
+					<li><a href="#">学校简介</a></li>
+					<li><a href="#">学科专业</a></li>
+					<li><a href="#">治理架构</a></li>
+					<li><a href="#">历史沿革</a></li>
+					<li><a href="#">学校标志</a></li>
+					<li><a href="#">校园风光</a></li>
+					<li><a href="#">校园地图</a></li>
+					</ul>
+				</li>
+				<li class="list"><a href="#">&nbsp;机构设置&nbsp;</a>
+					<ul>
+					<li><a href="#">教学单位</a></li>
+					<li><a href="#">管理服务</a></li>
+					<li><a href="#">附属单位</a></li>
+					<li><a href="#">汇华学院</a></li>
+					
+					</ul>
+				</li>
+				<li class="list"><a href="#">&nbsp;人才培养&nbsp;</a>
+					<ul>
+					<li><a href="#">师资队伍</a></li>
+					<li><a href="#">本科生教育</a></li>
+					<li><a href="#">研究生教育</a></li>
+					<li><a href="#">继续教育</a></li>
+					<li><a href="#">留学生教育</a></li>
+					<li><a href="#">中外合作办学</a></li>
+					</ul>
+				</li>
+				<li class="list"><a href="#">&nbsp;科学研究&nbsp;</a>
+					<ul>
+					<li><a href="#">科学研究平台</a></li>
+					<li><a href="#">自然科学与技术</a></li>
+					<li><a href="#">人文与社会科学</a></li>
+					<li><a href="#">合作交流</a></li>
+					<li><a href="#">学术期刊</a></li>
+					
+					</ul>
+					</li>
+				<li class="list"><a href="#">&nbsp;招生就业&nbsp;</a>
+					<ul>
+					<li><a href="#">本科生招生</a></li>
+					<li><a href="#">研究生招生</a></li>
+					<li><a href="#">继续教育招生</a></li>
+					<li><a href="#">留学生招生</a></li>
+					<li><a href="#">招生服务</a></li>
+					
+					</ul>
+				</li>
+				<li class="list"><a href="#">&nbsp;人才招聘&nbsp;</a></li>
+				<li class="list"><a href="#">&nbsp;公共服务&nbsp;</a>
+					<ul>
+					<li><a href="#">本科生服务</a></li>
+					<li><a href="#">研究生服务</a></li>
+					<li><a href="#">行政事务服务</a></li>
+					<li><a href="#">图书情报服务</a></li>
+					<li><a href="#">预决算公开</a></li>
+					<li><a href="#">生活服务</a></li>
+					<li><a href="#">网络服务</a></li>
+					</ul>
+				</li>
+				<li class="list"><a href="#">&nbsp;校友会</a></li> 
+				</ul>
+			</div>
+		<div class="wrap">
+    		<a href="#" style="display:block"><img src="00.gif" alt="pic0"/></a>
+        	<a href="#"><img src="01.jpg" alt="pic1"/></a>
+        	<a href="#"><img src="02.jpg" alt="pic2"/></a>
+        	<a href="#"><img src="03.jpg" alt="pic3"/></a>
+        	<a href="#"><img src="04.jpg" alt="pic4"/></a>
+        	<a href="#"><img src="05.jpg" alt="pic5"/></a>
+        	<a href="#"><img src="06.jpg" alt="pic6"/></a>
+        	<a href="#"><img src="07.jpg" alt="pic7"/></a>
+    		<div class="bottom">
+    			<span id="pre"><</span>
+    			<span id="next">></span>
+    		</div>
+    	</div>
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		window.onload = function(){
+			var liNodes = document.getElementsByTagName("li");
+			for (var i=0; i<liNodes.length; i++)
+			{
+				liNodes[i].onmouseover = function(){
+					this.className = "subMenuShow";
+				}
+				liNodes[i].onmouseout = function(){
+					this.className = "";
+				}
+			}
+		}
+		var wrap=document.getElementsByClassName('wrap')[0];
+		var bottom=document.getElementsByClassName('bottom')[0];
+        var imgs=wrap.getElementsByTagName('a');
+        var pre=document.getElementById('pre');
+        var next=document.getElementById('next');
+       var i=0;
+       function imgTab(){
+      	imgs[i%8].style.display="none";
+        i++;
+      	imgs[i%8].style.display="block";
+      }
+      var id=setInterval(imgTab,3000);
+      wrap.onmouseover=function(){
+      	clearInterval(id);
+      }
+      wrap.onmouseout=function(){
+      id=setInterval(imgTab,1000);	
+      }
+      pre.onclick=function(){
+      	imgs[i%8].style.display="none";
+      	i--;
+      	if(i<0)
+      		i=7;
+      	imgs[i%8].style.display="block";
+      }
+      next.onclick=function(){
+      	imgs[i%8].style.display="none";
+        i++;
+      	imgs[i%8].style.display="block";
+      }
+	</script>
+</html>
